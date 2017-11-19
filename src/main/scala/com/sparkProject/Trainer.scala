@@ -47,7 +47,7 @@ object Trainer {
       ********************************************************************************/
 
    /** CHARGER LE DATASET **/
-   val parquetDF = spark.read.parquet("/home/maria/Desktop/projet_spark/prepared_trainingset")
+   val parquetDF = spark.read.parquet("/home/maria/TP_ParisTech_2017_2018_starter/prepared_trainingset")
 
     /** TF-IDF **/
 
